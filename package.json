@@ -1,5 +1,7 @@
 {
   "name": "hypebid",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "audit": "0.0.6"
+  }
 }

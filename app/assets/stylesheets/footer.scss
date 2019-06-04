@@ -1,0 +1,153 @@
+/************************************
+FOOTER
+************************************/
+
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .widget li {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  opacity: 0.95;
+}
+
+.footer.primary-footer {
+  background-color: #0b509e;
+  padding-bottom: 40px;
+  padding-top: 53px;
+}
+
+.footer.secondary-footer {
+  background-color: #ffffff;
+  padding: 23px 0;
+}
+
+.footer.secondary-footer ul {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.secondary-footer li {
+  color:#212121;
+}
+
+.footer.secondary-footer a,
+.footer.primary-footer p,
+.footer.secondary-footer p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  line-height: 16px;
+}
+
+.footer.primary-footer p,
+.footer li a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer.secondary-footer p,
+.footer.secondary-footer a {
+  color: #595959;
+}
+
+.custom-title h4,
+.widget-title {
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 22px;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  line-height: 14px;
+}
+
+.custom-title h4 {
+  color: #232323;
+}
+
+.newsletter-widget {
+  max-width: 300px;
+}
+
+.newsletter-widget form {
+  margin-top: 15px;
+}
+
+.newsletter-widget p {
+  line-height: 21px !important;
+}
+
+.newsletter-widget .form-group {
+  position: relative;
+}
+
+.newsletter-widget .form-control {
+  width: 90%;
+  height: 40px;
+  border-radius: 500px 0 0 500px;
+}
+
+.newsletter-widget .btn {
+  border-radius: 0 500px 500px 0;
+  height: 40px;
+  margin-top: 0;
+  padding: 0;
+  position: absolute;
+  width: 45px;
+}
+
+.newsletter-widget .btn i {
+  padding: 0;
+}
+
+.tp-bannertimer {
+  display: none;
+}
+
+.tp-caption.NotGeneric-Title,
+.NotGeneric-Title {
+  font-weight: 300 !important;
+  color: #212121;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tp-caption.NotGeneric-Title.fstrong,
+.NotGeneric-Title.fstrong {
+  font-weight: bold !important;
+  color: #212121;
+  letter-spacing: 0 !important;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tp-caption.NotGeneric-Title span,
+.NotGeneric-Title span {
+  font-weight: 600 !important;
+}
+
+.tp-caption.NotGeneric-SubTitle,
+.NotGeneric-SubTitle {
+  color: #767676;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0;
+}
+
+.NotGeneric-CallToAction:hover,
+.tp-caption.NotGeneric-CallToAction:hover,
+.NotGeneric-CallToAction,
+.tp-caption.NotGeneric-CallToAction {
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0;
+  border-width: 2px !important;
+  border-radius: 500px;
+}

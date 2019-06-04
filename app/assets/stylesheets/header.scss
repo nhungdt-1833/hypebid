@@ -1,0 +1,167 @@
+/************************************
+HEADER
+************************************/
+
+.site-header {
+  padding: 25px 0 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #fff;
+  transition: background-color 0.5s ease 0s;
+  width: 100%;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-nav > li {
+  margin-left: 20px;
+}
+
+.yamm .yamm-content ul li a,
+.navbar-nav > li > a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  background-color: transparent !important;
+  color: #25382f !important;
+  font-size: 15px;
+  padding: 17px 0 3px;
+  font-weight: 400;
+}
+
+.yamm .yamm-content ul li a {
+  padding: 5px 0 3px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  box-shadow: none;
+  border: 0;
+  border-top: 4px solid #fff;
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  border-color: transparent;
+}
+
+.navbar-right .lastlink a {
+  border: 0;
+  color: #ffffff !important;
+  border-radius: 500px;
+}
+
+.navbar-right .lastlink {
+  margin-left: 30px;
+  margin-top: 6px;
+  border: 0 !important;
+  text-transform: capitalize;
+  border-radius: 500px;
+  border-top: 0 !important;
+}
+
+.navbar-right .lastlink a {
+  padding: 10px 30px 10px 20px;
+}
+
+.navbar-right .lastlink a:hover:after,
+.navbar-right .lastlink a:focus:after {
+  border-top: 0 !important;
+}
+
+.navbar-right .lastlink a i {
+  padding-right: 5px;
+  font-size: 12px;
+  vertical-align: unset;
+}
+
+.navbar-right .yamm-content li:hover a {
+  padding-left: 10px !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.navbar-right .yamm-content li:hover a {}
+
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+  z-index: 111;
+}
+
+.yamm .container {
+  position: relative;
+}
+
+.yamm .yamm-content {
+  padding: 20px 30px;
+}
+
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+.yamm .yamm-content ul {
+  padding: 0;
+  min-width: 180px;
+}
+
+.yamm .yamm-content .col-md-4 {}
+
+.header-transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+}
+
+.header-transparent.site-header {
+  background-color: transparent;
+}
+
+.colorfulheader .navbar-nav li a,
+.header-transparent .navbar-nav > li > a {
+  color: #ffffff !important;
+}
+
+.site-header.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1111;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header-transparent.affix {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-header {
+  color: black;
+  font-size: 14px;
+}
