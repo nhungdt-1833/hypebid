@@ -13,6 +13,8 @@ gem "font-awesome-sass"
 gem "mysql2"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.3"
+gem "slim-rails"
+gem "html2slim"
 
 gem "sass-rails", "~> 5.0"
 gem "turbolinks", "~> 5"
